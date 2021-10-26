@@ -1,0 +1,22 @@
+{
+  "name": "vscode/solution1",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Vscode\\Solution1\\": "src/"
+    }
+  },
+  "scripts": {
+    "start": "php -S localhost:3000 -t ./src"
+  },
+  "config": {
+    "process-timeout": 0
+  },
+  "authors": [
+    {
+      "name": "mohammad0-0ahmad",
+      "email": "mohammad0-0ahmad@outlook.com"
+    }
+  ],
+  "require": {}
+}

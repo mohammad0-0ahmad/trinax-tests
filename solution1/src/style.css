@@ -1,0 +1,30 @@
+body {
+  height: 100% !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  border: 3px solid var(--secondary);
+  border-radius: 10px;
+  width: fit-content;
+  width: 500px;
+  height: 300px;
+  align-content: space-around;
+  background-color: var(--background-paper);
+  box-shadow: 3px 3px 10px #00000050;
+}
+
+.page-title {
+  text-align: center;
+  padding: 16px;
+}
+
+.page-title > :nth-child(1) {
+  color: var(--secondary);
+}
+
+.page-links-container {
+  justify-content: center;
+  padding: 16px;
+}

@@ -1,0 +1,67 @@
+:root {
+  --primary: #19aee2;
+  --primary-contrast: #ffffff;
+  --secondary: #ed2371;
+  --secondary-contrast: #ffffff;
+  --background-default: #f0f8fd;
+  --background-paper: #ffffff;
+  --text-primary: #161616;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu";
+  box-sizing: border-box;
+  color: var(--text-primary);
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  background-color: var(--background-default);
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.button-primary {
+  padding: 16px;
+  background-color: var(--primary);
+  border-radius: 4px;
+  margin: 4px;
+  color: var(--primary-contrast);
+  box-shadow: 1px 1px 3px #00000050;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.button-secondary {
+  padding: 16px;
+  background-color: var(--secondary);
+  border-radius: 4px;
+  margin: 4px;
+  color: var(--secondary-contrast);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+[class^="button"]:hover {
+  filter: brightness(1.1);
+}
+
+[class^="button"]:active {
+  box-shadow: unset;
+}
