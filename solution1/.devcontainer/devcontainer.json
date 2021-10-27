@@ -7,11 +7,13 @@
     "liveServer.settings.port": 3000
   },
   "extensions": [
-    "felixfbecker.php-debug",
-    "bmewburn.vscode-intelephense-client",
-    "mrmlnc.vscode-apache",
-    "esbenp.prettier-vscode",
-    "ritwickdey.liveserver"
-  ],
+	"felixfbecker.php-debug",
+	"bmewburn.vscode-intelephense-client",
+	"mrmlnc.vscode-apache",
+	"esbenp.prettier-vscode",
+	"ritwickdey.liveserver",
+	"sophisticode.php-formatter",
+  "GitHub.remotehub"
+],
   "forwardPorts": [3000]
 }

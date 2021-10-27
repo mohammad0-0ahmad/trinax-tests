@@ -56,6 +56,7 @@ body {
   color: var(--secondary-contrast);
   user-select: none;
   -webkit-user-drag: none;
+  box-shadow: 1px 1px 3px #00000050;
 }
 
 [class^="button"]:hover {

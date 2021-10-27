@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    build: ./.devcontainer
+    ports:
+      - "9999:80"
+    volumes:
+      - ./src:/var/www/html/
+      - .:/workspace/solution1:cached
+      - ../.git:/workspace/.git:cached
