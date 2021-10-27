@@ -1,7 +1,3 @@
-<?php
-$title ="home";
-?>
-
 <body class="container">
     <div class="container main-container">
         <div class="item-12 page-title">

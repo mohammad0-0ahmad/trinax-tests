@@ -2,7 +2,7 @@
 include_once("utilities/router.php");
 
 loadView("/","home");
-loadView("/reports","reports");
+loadView("/reports","show-reports");
 loadView("/reports","reports");
 loadView("/reports/create","create-report");
 

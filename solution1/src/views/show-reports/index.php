@@ -1,5 +1,5 @@
 <?php
-$title ="Skapa tidrapport";
+$title ="Tidrapporter";
 ?>
 
 <body class="container">
