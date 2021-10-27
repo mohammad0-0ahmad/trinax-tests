@@ -6,6 +6,4 @@ services:
       - "9999:80"
     volumes:
       - ./src:/var/www/html/
-      - .:/workspace/solution1
-      - ../.git:/workspace/.git
-      - ../.gitignore:/workspace/.gitignore
+      - ../:/workspace/
