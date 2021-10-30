@@ -6,13 +6,8 @@ body {
 
 .main-container {
   border: 3px solid var(--secondary);
-  border-radius: 10px;
-  width: fit-content;
   width: 500px;
   height: 300px;
-  align-content: space-around;
-  background-color: var(--background-paper);
-  box-shadow: 3px 3px 10px #00000050;
 }
 
 .page-title {

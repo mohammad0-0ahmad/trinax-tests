@@ -1,8 +1,9 @@
 <?php
+require($_SERVER['DOCUMENT_ROOT']."/constants.php");
     $opts = [
         "http" => [
             "method" => "GET",
-            "header" => "Authorization: bearer 6f6e65662939db126c5239e9a761bb2f"
+            "header" => "Authorization: bearer ".$accessKey
         ]
     ];
     $context = stream_context_create($opts);

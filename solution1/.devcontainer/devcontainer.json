@@ -13,7 +13,8 @@
 	"esbenp.prettier-vscode",
 	"ritwickdey.liveserver",
 	"sophisticode.php-formatter",
-  "GitHub.remotehub"
+	"GitHub.remotehub",
+	"rifi2k.format-html-in-php"
 ],
   "forwardPorts": [3000]
 }
