@@ -6,4 +6,4 @@ services:
       - "9999:80"
     volumes:
       - ./src:/var/www/html/
-      - ../:/workspace/
+      - ../:/workspace/:cached
